@@ -3,5 +3,6 @@ x = input("O que devo fazer?")
 if(x == "teste"):
     print("teste")
 else:
-    apelido = input("Digite seu apelido:")
-    print(apelido)
+    nome = input("Digite seu nome")
+    apelido = input("Digite seu sobrenome:")
+    print(nome + apelido)
